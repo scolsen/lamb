@@ -141,7 +141,7 @@ function! s:setLight()
   " Base colors.
   call s:highlight('Normal', 'lightorchid')
   call s:highlight('NonText', 'riverblue')
-  call s:highlight('comment', 'grey')
+  call s:highlight('comment', 'lightpink', 'darkmagenta', 'underline')
   call s:highlight('constant', 'orchid')
   call s:highlight('string', 'purple')
   call s:highlight('identifier', 'darkmagenta')
